@@ -1,0 +1,108 @@
+.farmer-card-container {
+    width: 13rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px -3px #ABB2BA;
+    transition: 0.3s;
+    animation: ease-in;
+    background-color: #FAFAFA;
+    border-radius: 3px;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.farmer-card-container-disabled {
+    width: 13rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px -3px #d2d3d4;
+    transition: 0.3s;
+    animation: ease-in;
+    background-color: #e6e6e6;
+    border-radius: 3px;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.farmer-card-container:hover {
+    box-shadow: 0px 0px 10px 0px #ABB2BA;
+}
+
+.farmer-img-container img {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 4rem;
+    width: 4rem;
+}
+
+.farmer-card-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.farmer-card-title {
+    color: black;
+    font-weight: bold;
+    overflow: scroll;
+    height: 3rem;
+    margin-top: 0.5rem;
+}
+
+.farmer-card-body-p {
+    padding: 0;
+    margin-bottom: 0.5rem;
+    height: 3rem;
+}
+
+.farmer-card-subinfo {
+    color: #247D37;
+}
+
+.farmer-card-button {
+    display: flex;
+    justify-content: left;
+}
+
+.solid {
+    border-top: 1px solid black;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    opacity: 10%;
+}
+
+.farmer-card-button button {
+    padding: 0.5rem;
+    width: 10.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #247D37;
+    border: 0px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin: 1rem;
+}
+
+.farmer-card-button button:hover {
+    background-color: #37BD55;
+}
+
+.farmer-card-button button:disabled {
+    background-color: #ABB2BA;
+}
+
+.farmer-card-button input {
+    padding: 0.5rem;
+    width: 10.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #247D37;
+    border: 0px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin: 1rem;
+}
+
+.farmer-card-button input:hover {
+    background-color: #37BD55;
+}

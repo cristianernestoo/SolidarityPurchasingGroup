@@ -1,0 +1,13 @@
+# dependencies
+node_modules
+target
+# test results
+coverage
+.scannerwork
+
+# misc
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/settings.json
+client/test-report.xml

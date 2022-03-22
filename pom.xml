@@ -1,0 +1,13 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>softeng2</groupId>
+    <artifactId>spg</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <properties>
+        <sonar.organization>software-eng2</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
+    <build>
+        <sourceDirectory>.</sourceDirectory>
+    </build>
+</project>
